@@ -1,0 +1,104 @@
+Report Type:	Expression Report
+Date:          	03:31PM 05/08/2002
+______________________________________________________________________
+
+Filename:		CDN002_Vs_CDN001-U34B.CHP
+Probe Array Type:	RG_U34A
+Algorithm:		Statistical
+Probe Pair Thr:	8
+Controls:		Antisense
+______________________________________________________________________
+
+Alpha1:		0.04
+Alpha2:		0.06
+Tau:		0.015
+Noise (RawQ):	1.860
+Scale Factor (SF):	11.665
+TGT Value:		250
+Norm Factor (NF):	1.000
+
+Baseline filename:	CDN001-U34B.CHP
+Gamma1H:		0.0025
+Gamma1L:		0.0025
+Gamma2H:		0.003
+Gamma2L:		0.003
+Perturbation:	1.1
+Baseline Noise (RawQ):	1.870
+Baseline Scale Factor (SF):	7.812760
+______________________________________________________________________
+
+Background:
+	Avg: 79.24	Std: 2.78	Min: 75.20	Max: 87.80
+Noise:
+	Avg: 2.83	Std: 0.21	Min: 2.40	Max: 3.50
+Corner+
+	Avg: 137		Count: 32
+Corner-
+	Avg: 4217		Count: 32
+Central-
+	Avg: 3982		Count: 9
+______________________________________________________________________
+
+The following data represents probe sets that exceed the probe pair threshold 
+and are not called "No Call".
+
+Total Probe Sets:	8784
+Number Present:	2435	27.7%
+Number Absent:	6052	68.9%
+Number Marginal:	297	3.4%
+
+Average Signal (P):	810.2
+Average Signal (A):	133.3
+Average Signal (M):	342.8
+Average Signal (All):	328.1
+
+Number Increase:	34	0.4%
+Number Decrease:	143	1.6%
+Number MIncrease:	5	0.1%
+Number MDecrease:	16	0.2%
+Number No Change:	8586	97.7%
+
+Number (A/M->P, MI/I)		6	0.1%
+Number (P->A/M, MD/D)	22	0.3%
+Number (P->P, MI/I)		3	0.0%
+Number (P->P, MD/D)		114	1.3%
+Number (A/M->A/M, MI/I)	30	0.3%
+Number (A/M->A/M, MD/D)	23	0.3%
+Number (P->P, NC)		2143	24.4%
+Number (A/M->A/M, NC)	5686	64.7%
+
+Number Increase:
+	(0<=SLR<1):	13
+	(SLR>=1):		26
+	(SLR>=2):		13
+	(SLR>=3):		5
+	(SLR>=4):		0
+
+Number Decrease:
+	(0>=SLR>-1):	142
+	(SLR<=-1):		15
+	(SLR<=-2):		2
+	(SLR<=-3):		0
+	(SLR<=-4):		0
+______________________________________________________________________
+
+Housekeeping Controls:
+Probe Set		Sig(5')	Det(5')	Sig(M')	Det(M')	Sig(3')	Det(3')	Sig(all)	Sig(3'/5')
+RAT_GAPDH		15358.7	P	17441.8	P	19047.4	P	17282.65	1.24
+RAT_HEXOKINASE	355.8	P	1194.2	P	923.8	P	824.61	2.60
+RAT_BETA-ACTIN	7746.0	P	15633.1	P	15935.0	P	13104.72	2.06
+______________________________________________________________________
+
+Spike Controls:
+Probe Set		Sig(5')	Det(5')	Sig(M')	Det(M')	Sig(3')	Det(3')	Sig(all)	Sig(3'/5')
+BIOB		427.9	P	882.2	P	583.0	P	631.03	1.36
+BIOC		1733.9	P	 	 	1091.0	P	1412.45	0.63
+BIODN		1552.0	P	 	 	8824.5	P	5188.24	5.69
+CREX		16814.8	P	 	 	24840.3	P	20827.53	1.48
+DAPX		43.4	A	57.2	A	16.2	A	38.95	0.37
+LYSX		41.4	A	17.4	A	38.4	A	32.37	0.93
+PHEX		9.0	A	25.2	A	31.1	A	21.74	3.46
+THRX		17.8	A	18.0	A	26.9	A	20.91	1.51
+TRPNX		26.7	A	17.3	A	9.9	A	17.98	0.37
+______________________________________________________________________
+
